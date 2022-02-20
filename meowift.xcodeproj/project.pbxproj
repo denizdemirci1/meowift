@@ -14,6 +14,18 @@
 		34B3885F27C13248002396EC /* meowiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3885E27C13248002396EC /* meowiftTests.swift */; };
 		34B3886927C13248002396EC /* meowiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3886827C13248002396EC /* meowiftUITests.swift */; };
 		34B3886B27C13248002396EC /* meowiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3886A27C13248002396EC /* meowiftUITestsLaunchTests.swift */; };
+		34B3887B27C1347B002396EC /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3887A27C1347B002396EC /* Breed.swift */; };
+		34B3887D27C134A7002396EC /* BreedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3887C27C134A7002396EC /* BreedImage.swift */; };
+		34B3887F27C1366E002396EC /* BreedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3887E27C1366E002396EC /* BreedFetcher.swift */; };
+		34B3888127C13C2C002396EC /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3888027C13C2C002396EC /* BreedListView.swift */; };
+		34B3888327C13C34002396EC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3888227C13C34002396EC /* LoadingView.swift */; };
+		34B3888527C13C3C002396EC /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3888427C13C3C002396EC /* ErrorView.swift */; };
+		34B3888727C16618002396EC /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3888627C16618002396EC /* APIError.swift */; };
+		34B3888927C18AB3002396EC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3888827C18AB3002396EC /* APIService.swift */; };
+		34B3888B27C19504002396EC /* BreedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3888A27C19504002396EC /* BreedRow.swift */; };
+		34B3888D27C19537002396EC /* BreedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3888C27C19537002396EC /* BreedDetailView.swift */; };
+		34B3888F27C19D5A002396EC /* APIMockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3888E27C19D5A002396EC /* APIMockService.swift */; };
+		34B3889127C19DA5002396EC /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3889027C19DA5002396EC /* APIServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		34B3886427C13248002396EC /* meowiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meowiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B3886827C13248002396EC /* meowiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meowiftUITests.swift; sourceTree = "<group>"; };
 		34B3886A27C13248002396EC /* meowiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meowiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34B3887A27C1347B002396EC /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = SOURCE_ROOT; };
+		34B3887C27C134A7002396EC /* BreedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImage.swift; sourceTree = SOURCE_ROOT; };
+		34B3887E27C1366E002396EC /* BreedFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedFetcher.swift; sourceTree = "<group>"; };
+		34B3888027C13C2C002396EC /* BreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreedListView.swift; path = meowift/networking/BreedListView.swift; sourceTree = SOURCE_ROOT; };
+		34B3888227C13C34002396EC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = meowift/networking/LoadingView.swift; sourceTree = SOURCE_ROOT; };
+		34B3888427C13C3C002396EC /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErrorView.swift; path = meowift/networking/ErrorView.swift; sourceTree = SOURCE_ROOT; };
+		34B3888627C16618002396EC /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		34B3888827C18AB3002396EC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		34B3888A27C19504002396EC /* BreedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreedRow.swift; path = meowift/networking/BreedRow.swift; sourceTree = SOURCE_ROOT; };
+		34B3888C27C19537002396EC /* BreedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreedDetailView.swift; path = meowift/networking/BreedDetailView.swift; sourceTree = SOURCE_ROOT; };
+		34B3888E27C19D5A002396EC /* APIMockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMockService.swift; sourceTree = "<group>"; };
+		34B3889027C19DA5002396EC /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +118,9 @@
 		34B3884C27C13247002396EC /* meowift */ = {
 			isa = PBXGroup;
 			children = (
+				34B3887927C132D5002396EC /* networking */,
+				34B3887827C132CB002396EC /* models */,
+				34B3887727C132BA002396EC /* views */,
 				34B3884D27C13247002396EC /* meowiftApp.swift */,
 				34B3884F27C13247002396EC /* ContentView.swift */,
 				34B3885127C13248002396EC /* Assets.xcassets */,
@@ -125,6 +152,39 @@
 				34B3886A27C13248002396EC /* meowiftUITestsLaunchTests.swift */,
 			);
 			path = meowiftUITests;
+			sourceTree = "<group>";
+		};
+		34B3887727C132BA002396EC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				34B3888027C13C2C002396EC /* BreedListView.swift */,
+				34B3888227C13C34002396EC /* LoadingView.swift */,
+				34B3888427C13C3C002396EC /* ErrorView.swift */,
+				34B3888A27C19504002396EC /* BreedRow.swift */,
+				34B3888C27C19537002396EC /* BreedDetailView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		34B3887827C132CB002396EC /* models */ = {
+			isa = PBXGroup;
+			children = (
+				34B3887A27C1347B002396EC /* Breed.swift */,
+				34B3887C27C134A7002396EC /* BreedImage.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		34B3887927C132D5002396EC /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				34B3887E27C1366E002396EC /* BreedFetcher.swift */,
+				34B3888627C16618002396EC /* APIError.swift */,
+				34B3888827C18AB3002396EC /* APIService.swift */,
+				34B3888E27C19D5A002396EC /* APIMockService.swift */,
+				34B3889027C19DA5002396EC /* APIServiceProtocol.swift */,
+			);
+			path = networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +317,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B3887D27C134A7002396EC /* BreedImage.swift in Sources */,
+				34B3887B27C1347B002396EC /* Breed.swift in Sources */,
+				34B3888B27C19504002396EC /* BreedRow.swift in Sources */,
 				34B3885027C13247002396EC /* ContentView.swift in Sources */,
+				34B3888D27C19537002396EC /* BreedDetailView.swift in Sources */,
+				34B3887F27C1366E002396EC /* BreedFetcher.swift in Sources */,
 				34B3884E27C13247002396EC /* meowiftApp.swift in Sources */,
+				34B3888F27C19D5A002396EC /* APIMockService.swift in Sources */,
+				34B3889127C19DA5002396EC /* APIServiceProtocol.swift in Sources */,
+				34B3888327C13C34002396EC /* LoadingView.swift in Sources */,
+				34B3888927C18AB3002396EC /* APIService.swift in Sources */,
+				34B3888127C13C2C002396EC /* BreedListView.swift in Sources */,
+				34B3888527C13C3C002396EC /* ErrorView.swift in Sources */,
+				34B3888727C16618002396EC /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
