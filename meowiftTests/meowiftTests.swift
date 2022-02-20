@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Combine
 @testable import meowift
 
 class meowiftTests: XCTestCase {
