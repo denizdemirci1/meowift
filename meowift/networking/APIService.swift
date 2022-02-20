@@ -36,27 +36,27 @@ struct APIService: APIServiceProtocol {
             task.resume()
     }
     
-    func fetchBreeds(url: URL?, complation: @escaping(Result<[Breed], APIError>) -> Void) {
+    func fetchBreeds(url: URL?, completion: @escaping(Result<[Breed], APIError>) -> Void) {
         
         guard let url = url else {
             let error = APIError.badURL
-            complation(Result.failure(error))
+            completion(Result.failure(error))
             return
         }
         
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if let error = error as? URLError {
-                complation(Result.failure(APIError.url(error)))
+                completion(Result.failure(APIError.url(error)))
             } else if let response = response as? HTTPURLResponse,
                !(200...299).contains(response.statusCode) {
-                complation(Result.failure(APIError.badResponse(statusCode: response.statusCode )))
+                completion(Result.failure(APIError.badResponse(statusCode: response.statusCode )))
             } else if let data = data {
                 let decoder = JSONDecoder()
                 do {
                     let breeds = try decoder.decode([Breed].self, from: data)
-                    complation(Result.success(breeds))
+                    completion(Result.success(breeds))
                 } catch {
-                    complation(Result.failure(APIError.parsing(error as? DecodingError)))
+                    completion(Result.failure(APIError.parsing(error as? DecodingError)))
                 }
             }
         }
